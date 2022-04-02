@@ -4,10 +4,9 @@ import * as store from './mobx';
 import Routes from './routes';
 import { createBrowserHistory } from 'history';
 import { Provider } from 'mobx-react';
-import { router } from './mobx/';
+import { router } from './mobx';
 import { Router } from 'react-router-dom';
 import { syncHistoryWithStore } from 'mobx-react-router';
-import 'semantic-ui-css/semantic.min.css';
 
 const rootElement = document.getElementById('root');
 const browserHistory = createBrowserHistory();

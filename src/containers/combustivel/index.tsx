@@ -22,7 +22,7 @@ export default class Combustivel extends React.Component<Props>{
       submit();
     }
 
-    const breakcode= () => {
+    const breakCode= () => {
       throw new Error ('EROOOU')
     }
 

@@ -14,6 +14,6 @@ export const endpoints: EndPointsProps[] = [
   { path: `${publicUrl}/`, component: Home, exact: true },
   { path: `${publicUrl}/home`, name: 'Home', component: Home, exact: true },
   { path: `${publicUrl}/combustivel`, name: 'Combustível', component: Combustivel, exact: true },
-  { path: `${publicUrl}/star-wars`, name: 'Star Wars', component: StarWars, exact: true },
-  { path: `${publicUrl}/star-wars-details`,  name: 'Star Wars Details', component: StarWarsDetails, exact: true },
+  { path: `${publicUrl}/star-wars/:id`, component: StarWarsDetails, exact: true },
+  { path: `${publicUrl}/star-wars`, name: 'Star Wars', component: StarWars, exact: true },  
 ];
